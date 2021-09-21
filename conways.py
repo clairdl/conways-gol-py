@@ -38,7 +38,7 @@ def randomSeed():
         for y in range(HEIGHT // 2):
             if random.randint(0, 1) == 0:
                 board.add(Cell(x, y))
-        return board
+    return board
 
 def boardStringify(board, xypad=0):
     if not board:
